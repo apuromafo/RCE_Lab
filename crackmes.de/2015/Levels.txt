@@ -1,0 +1,9 @@
+Level1: Very easy 
+Level2: Need little Brain or luck
+Level 3: Getting Harder
+Level 4: Need special knowledge
+Level 5: Professional problem to solve
+Level 6: Hard for very profesionals only
+Level 7:very hard
+Level 8: very very hard
+Level 9: you cant solve this yourself
