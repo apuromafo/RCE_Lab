@@ -1,0 +1,87 @@
+Sr. Apuromafo, [23.04.18 ]
+El programa valida 2 checksum, en 5 porciones de código de los cuales son verificadas ciertas porciones de código haciendo interés o no interés en el guión (da igual si está o no)
+
+
+haciendo truncamiento de valores (hace dificil el tema de operatorias) asi que el codigo nunca se verá estéticamente bonito as que me animaré a mirar por encima
+
+ realiza un checksum según un algoritmo dado haciendo sumas xor y and,
+ lo cual hace realizar validaciones en porciones de código, una vez armado 3 porciones de código
+tenemos una cuarta que valida el checksum final que será validado otra vez, contra el blacklist. 
+
+Solo es de interés comentar (por el tiempo), la posición del número de licencias, 
+
+Porción de codigo 1
+utiliza letras y números como 0123456789ABCDEF, dado el largo 5, es indispensable verificar los blacklist en cada momento.
+
+Porcion de codigo 2
+valida además, la cantidad de años y número de licencias.
+Porcion de codigo 3
+calculos relacionados con 0x53135 y un and con fffff  
+Porcion de codigo 4
+Calculos relacionados con truncamientos de valores, para posiciones dadas(seguir verificando de que se trata)
+
+Porcion de código 5
+ Calculos relacionados según valores +1 por el valor de la key , es algo complicado de explicar , seria algo como 
+(ord(char) + 1) * (hex to int de la suma de cada carácter creado))
+ dado que no me sobra el tiempo dejo esto de recuerdo.
+ 
+Las licencias se validan según una posicion X  en este largo tipo, siendo 3 datos  muy importantes (años, tipo de licencia, blacklist) ,
+ según la porción del código una valida el año, el otro el tipo de licencia.
+
+Digamos que quiero saber que tipo de licencia he generado, yo me guío por la posición, entonces
+ sea un serial tipo con asteriscos , el valor x según se indica:
+
+******X******************
+Si X es el valor a completar, Los valores del 1 al 9 son licencias del 1 al 9
+Los valores A =10, B=15  C=20  y así va incrementando hasta la letra F
+
+dejo de ejemplo seriales que cumplen los valores 
+
+Licencia de 10:
+CA801BA37B9993481FE7F3156
+
+Licencia de 15:
+CEA3DBBF8B9DB08538A4A2B77
+
+Licencia de 20:
+CD99CBCD5B9E8A960A77C7F1B
+
+Lic de Unlimited Site
+C073DBE1DB936085619956182
+
+Lic de Global
+C8A85BFFBB9BBB0AFD527AE9A
+
+existen algunos blacklist que son:
+41CB2,8F742,9ED4C
+A00, A1253,A26B1,AF54C,ABCDE, 
+B52AE,BF55B, B5921,
+CFFF2,CFAAC,C58CA,C7AD1,
+D1A7D, D5451,
+EF9E4,E12A1, EFD97, ECA1D,EDFF4,EA84A, 
+F1F7F,F25E7,F9472,F1AA4,F2913,FFFA7,F7B94,F1319,F1E7F,F15BE,F16EA,F4A5C,F83AA
+ 
+ 
+ además el algoritmo permite la inserción de - en el código 
+ asi queda Licencia entonces para cada tipo:
+ 
+Licencia  0= CECA0-B02AB-9DD95-88CD4-E586B
+Licencia  1= C4EF3-B1AEB-97FC6-63F6F-F043E
+Licencia  2= CC5A8-B2ABB-9F49D-26CDC-73EA3
+Licencia  3= AC676-B366B-FF743-A18EC-3C564
+Licencia  4= C7CDA-B488B-94DEF-10BC6-9A98D
+Licencia  5= CDA92-B57BB-9EBA7-71A75-2EBE8
+Licencia  6= B1486-B6C0B-E25B3-A7BB6-5041E
+Licencia  7= CD8BE-B728B-9E98B-40E1B-D19B9
+Licencia  8= C8B1A-B872B-9BA2F-0F843-E9FBC
+Licencia  9= CB6B1-B963B-98784-82389-528C1
+Licencia  A= ACABF-BAB3B-FFB8A-381C6-813E6
+Licencia  B= A52F8-BBA6B-F63CD-2CFD3-2BAF9
+Licencia  C= B1254-BC05B-E2361-B98D4-FA1C1
+Licencia  D= CA8D7-BDD9B-999E2-97EFF-58B54
+Licencia  E= CBD08-BE36B-98C3D-2AD5F-56392
+Licencia  F= A9C47-BFBEB-FAD72-9CF72-7334F
+
+
+saludos
+Apuromafo 
