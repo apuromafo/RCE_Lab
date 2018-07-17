@@ -1,0 +1,8 @@
+El crackme una vez "desvirtualizado" lo que realizará para comprobar si el serial es correcto
+será un lstrcmp tras esto realizará un OR EAX,EAX con la salida de lstrcmp, esto llevará a 
+un salto, el cual si es incorrecto nos llevará a la instrucción 1 (2E 58 F8 6D 1A 50 B5 CE B7 96 D6 34 27 F6 6C BF AC C0 85 C5)
+y en caso de ser correcto nos llevará a la instrucción 2 (80 42 5B 6A 21 54 01 CA CA 91 2E 60 73 79 1D 33 C2 77 05 BB).
+Por tanto, para realizar el cracking, debemos buscar en el código la instrucción 1, y cambiarla por la instrucción 2:
+
+-- Buscar la cadena: 2E 58 F8 6D 1A 50 B5 CE B7 96 D6 34 27 F6 6C BF AC C0 85 C5 dentro del binario, puesto que esta es a la que instrucción a la que salta si no coinciden el serial introducido con el esperado.
+-- Cambiarla por: 80 42 5B 6A 21 54 01 CA CA 91 2E 60 73 79 1D 33 C2 77 05 BB ya que esta es a la que salta en caso de ser correcto el serial y todo congratulations.
