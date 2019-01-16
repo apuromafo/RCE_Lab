@@ -1,0 +1,1710 @@
+{
+ "comments": [
+  {
+   "module": "aces_v3.exe",
+   "address": "0x16C2",
+   "manual": true,
+   "text": "PExceptionInfo"
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x1982",
+   "manual": false,
+   "text": "BOOLEAN RaiseAlert = FALSE"
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x1902",
+   "manual": true,
+   "text": "nextInstructionDeciphered"
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x1487",
+   "manual": true,
+   "text": "copy salt to buffer"
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x16E5",
+   "manual": true,
+   "text": "STATUS_ACCESS_VIOLATION"
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x193A",
+   "manual": true,
+   "text": "sha1Offset"
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x16C5",
+   "manual": true,
+   "text": "EXCEPTION_POINTERS.ExceptionRecord"
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x16CF",
+   "manual": true,
+   "text": "EXCEPTION_POINTERS.ContextRecord"
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x16C7",
+   "manual": true,
+   "text": "EXCEPTION_RECORD.ExceptionCode"
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x16D9",
+   "manual": true,
+   "text": "STATUS_BREAKPOINT"
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x147C",
+   "manual": true,
+   "text": "eax = salt"
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x1491",
+   "manual": true,
+   "text": "modify buffer with bytes from vmBytesToWork"
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x18E4",
+   "manual": true,
+   "text": "CONTEXT.EFlags"
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x18EA",
+   "manual": true,
+   "text": "AddressOfEflagToCheck"
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x1589",
+   "manual": true,
+   "text": "nextInstructionDeciphered"
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x1985",
+   "manual": true,
+   "text": "NtContinue"
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x190D",
+   "manual": true,
+   "text": "nextInstruction"
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x1907",
+   "manual": true,
+   "text": "salt to decipher"
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x192A",
+   "manual": true,
+   "text": "salt"
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x1933",
+   "manual": true,
+   "text": "instructionSize"
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x193B",
+   "manual": true,
+   "text": "obten dirección a realizar un CALL"
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x1984",
+   "manual": false,
+   "text": "PCONTEXT ThreadContext"
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x196D",
+   "manual": true,
+   "text": "CONTEXT.DR1 = instructionSHA"
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x1779",
+   "manual": true,
+   "text": "CONTEXT.DR1"
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x1781",
+   "manual": true,
+   "text": "indexOfInstruction"
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x158E",
+   "manual": true,
+   "text": "salt"
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x1594",
+   "manual": true,
+   "text": "nextInstruction"
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x17B1",
+   "manual": true,
+   "text": "index of instruction"
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x15E9",
+   "manual": true,
+   "text": "CONTEXT.ESP"
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x15F8",
+   "manual": true,
+   "text": "CONTEXT.ESP"
+  }
+ ],
+ "labels": [
+  {
+   "module": "aces_v3.exe",
+   "address": "0x6450",
+   "manual": true,
+   "text": "binaryIT"
+  },
+  {
+   "module": "",
+   "address": "0x404000",
+   "manual": true,
+   "text": "vmCode"
+  },
+  {
+   "module": "",
+   "address": "0x403000",
+   "manual": true,
+   "text": "vmStrings"
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x1962",
+   "manual": true,
+   "text": "_saveInstructionHash"
+  },
+  {
+   "module": "",
+   "address": "0x402000",
+   "manual": true,
+   "text": "vmIT"
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x22008",
+   "manual": true,
+   "text": "ExceptionCode"
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x22028",
+   "manual": true,
+   "text": "instructionSHA"
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x18C2",
+   "manual": true,
+   "text": "_conditionalJump"
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x663C",
+   "manual": true,
+   "text": "binaryStrings"
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x6DA0",
+   "manual": true,
+   "text": "binaryCode"
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x1564",
+   "manual": true,
+   "text": "crackmeGusDecipherNextInstruction"
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x2041",
+   "manual": true,
+   "text": "gusInstruction.hashSha"
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x1726",
+   "manual": true,
+   "text": "_errorIsSTATUS_BREAKPOINT"
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x16BF",
+   "manual": true,
+   "text": "crackmeGusVMInterprete"
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x22004",
+   "manual": true,
+   "text": "ExceptionContext"
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x1722",
+   "manual": true,
+   "text": "_endOfFunction"
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x1541",
+   "manual": true,
+   "text": "cracmeGusGetNextInstructionIndex"
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x18FC",
+   "manual": true,
+   "text": "_dontJump"
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x178B",
+   "manual": true,
+   "text": "_getNextOperationType"
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x2040",
+   "manual": true,
+   "text": "gusInstruction.instructionType"
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x207E",
+   "manual": true,
+   "text": "gusInstruction.salt"
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x2055",
+   "manual": true,
+   "text": "gusInstruction.instructionSize"
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x2200C",
+   "manual": true,
+   "text": "vmBytesToWork"
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x2056",
+   "manual": true,
+   "text": "gusInstruction.branchHash"
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x2203C",
+   "manual": true,
+   "text": "shaContext"
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x22230",
+   "manual": true,
+   "text": "Buffer"
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x22270",
+   "manual": true,
+   "text": "Result"
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x14DB",
+   "manual": true,
+   "text": "crackmeGusGetValueToJumpOrNot"
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x206A",
+   "manual": true,
+   "text": "gusInstruction.nextHash"
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x22014",
+   "manual": true,
+   "text": "nextInstructionDeciphered"
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x1459",
+   "manual": true,
+   "text": "crackmeGusGetAddressFromHash"
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x1924",
+   "manual": true,
+   "text": "_doCall"
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x1946",
+   "manual": true,
+   "text": "CONTEXT.EIP = eax"
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x1956",
+   "manual": true,
+   "text": "CONTEXT.DR0 = EAX + Instruction size (Interrupt second instruction)"
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x1959",
+   "manual": true,
+   "text": "CONTEXT.DR7 = set to stop"
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x1716",
+   "manual": true,
+   "text": "_checkIfSTATUS_SINGLE_STEP"
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x1773",
+   "manual": true,
+   "text": "_singleStepIsCorrect"
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x15A8",
+   "manual": true,
+   "text": "crackmeGusSaveInstructionSHA"
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x22010",
+   "manual": true,
+   "text": "shaSaved"
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x15E2",
+   "manual": true,
+   "text": "crackmeGusPushA0000000OnStack"
+  }
+ ],
+ "functions": [
+  {
+   "module": "aces_v3.exe",
+   "start": "0x1459",
+   "end": "0x14D8",
+   "icount": "0x2D",
+   "manual": false
+  },
+  {
+   "module": "aces_v3.exe",
+   "start": "0x18CD",
+   "end": "0x18EC",
+   "icount": "0xD",
+   "manual": false
+  },
+  {
+   "module": "aces_v3.exe",
+   "start": "0x1950",
+   "end": "0x198B",
+   "icount": "0x13",
+   "manual": false
+  }
+ ],
+ "arguments": [
+  {
+   "module": "aces_v3.exe",
+   "start": "0x1982",
+   "end": "0x1985",
+   "icount": "0x3",
+   "manual": true
+  }
+ ],
+ "autoloops": [
+  {
+   "module": "aces_v3.exe",
+   "start": "0x1462",
+   "end": "0x14D3",
+   "depth": 0,
+   "parent": "0x0",
+   "icount": "0x0"
+  },
+  {
+   "module": "aces_v3.exe",
+   "start": "0x18D7",
+   "end": "0x18DA",
+   "depth": 0,
+   "parent": "0x0",
+   "icount": "0x0"
+  },
+  {
+   "module": "aces_v3.exe",
+   "start": "0x18E9",
+   "end": "0x18EC",
+   "depth": 0,
+   "parent": "0x0",
+   "icount": "0x0"
+  }
+ ],
+ "xrefs": [
+  {
+   "module": "aces_v3.exe",
+   "address": "0x10F0",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x1087",
+     "type": "0x2"
+    },
+    {
+     "addr": "0x10DE",
+     "type": "0x2"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x157D",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x1883",
+     "type": "0x3"
+    },
+    {
+     "addr": "0x1782",
+     "type": "0x3"
+    },
+    {
+     "addr": "0x176A",
+     "type": "0x3"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x1363",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x10D2",
+     "type": "0x2"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x135E",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x10E6",
+     "type": "0x2"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x1104",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x10F2",
+     "type": "0x2"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x1882",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x1827",
+     "type": "0x2"
+    },
+    {
+     "addr": "0x1834",
+     "type": "0x2"
+    },
+    {
+     "addr": "0x1841",
+     "type": "0x2"
+    },
+    {
+     "addr": "0x184E",
+     "type": "0x2"
+    },
+    {
+     "addr": "0x185B",
+     "type": "0x2"
+    },
+    {
+     "addr": "0x1868",
+     "type": "0x2"
+    },
+    {
+     "addr": "0x1875",
+     "type": "0x2"
+    },
+    {
+     "addr": "0x187A",
+     "type": "0x2"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x1359",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x10FA",
+     "type": "0x2"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x1118",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x1106",
+     "type": "0x2"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x1354",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x110E",
+     "type": "0x2"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x112C",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x111A",
+     "type": "0x2"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x134F",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x1122",
+     "type": "0x2"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x1140",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x112E",
+     "type": "0x2"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x134A",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x1136",
+     "type": "0x2"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x1324",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x1142",
+     "type": "0x2"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x125D",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x114F",
+     "type": "0x2"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x119C",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x1180",
+     "type": "0x2"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x1336",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x1192",
+     "type": "0x2"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x11EE",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x1199",
+     "type": "0x2"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x122B",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x11D8",
+     "type": "0x2"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x1309",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x1227",
+     "type": "0x2"
+    },
+    {
+     "addr": "0x1217",
+     "type": "0x2"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x16B8",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x169E",
+     "type": "0x2"
+    },
+    {
+     "addr": "0x16B4",
+     "type": "0x2"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x122C",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x1220",
+     "type": "0x2"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x12E9",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x1222",
+     "type": "0x2"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x124E",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x1230",
+     "type": "0x2"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x1304",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x1244",
+     "type": "0x2"
+    },
+    {
+     "addr": "0x124D",
+     "type": "0x2"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x1285",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x126C",
+     "type": "0x2"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x12CD",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x127E",
+     "type": "0x2"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x129C",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x1283",
+     "type": "0x2"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x12C8",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x1295",
+     "type": "0x2"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x12B3",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x129A",
+     "type": "0x2"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x12C3",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x12AC",
+     "type": "0x2"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x12E6",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x12BE",
+     "type": "0x2"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x101E",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x19F5",
+     "type": "0x3"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x12DC",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x12C4",
+     "type": "0x2"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x12E1",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x12D5",
+     "type": "0x2"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x1373",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x130A",
+     "type": "0x2"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x132E",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x1334",
+     "type": "0x2"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x1374",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x13D5",
+     "type": "0x2"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x142F",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x1405",
+     "type": "0x2"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x1414",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x1417",
+     "type": "0x2"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x144F",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x1425",
+     "type": "0x2"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x14AC",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x1440",
+     "type": "0x2"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x1030",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x1A30",
+     "type": "0x3"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x1A8A",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x1498",
+     "type": "0x3"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x1A90",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x14A9",
+     "type": "0x3"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x1A96",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x14B8",
+     "type": "0x3"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x17B1",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x17AB",
+     "type": "0x2"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x1462",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x14D3",
+     "type": "0x2"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x1549",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x155C",
+     "type": "0x2"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x1572",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x1577",
+     "type": "0x2"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x16BF",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x1A77",
+     "type": "0x1"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x1564",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x1595",
+     "type": "0x3"
+    },
+    {
+     "addr": "0x18AC",
+     "type": "0x3"
+    },
+    {
+     "addr": "0x190E",
+     "type": "0x3"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x1541",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x159F",
+     "type": "0x3"
+    },
+    {
+     "addr": "0x1918",
+     "type": "0x3"
+    },
+    {
+     "addr": "0x174E",
+     "type": "0x3"
+    },
+    {
+     "addr": "0x15DC",
+     "type": "0x3"
+    },
+    {
+     "addr": "0x177C",
+     "type": "0x3"
+    },
+    {
+     "addr": "0x1764",
+     "type": "0x3"
+    },
+    {
+     "addr": "0x18B6",
+     "type": "0x3"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x1616",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x1613",
+     "type": "0x2"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x1623",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x1618",
+     "type": "0x2"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x1610",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x1621",
+     "type": "0x2"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x16B6",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x1645",
+     "type": "0x2"
+    },
+    {
+     "addr": "0x1684",
+     "type": "0x2"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x1600",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x164F",
+     "type": "0x3"
+    },
+    {
+     "addr": "0x167A",
+     "type": "0x3"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x163F",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x1658",
+     "type": "0x2"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x1669",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x1689",
+     "type": "0x2"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x1012",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x168F",
+     "type": "0x3"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x1018",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x1699",
+     "type": "0x3"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x1726",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x16E3",
+     "type": "0x2"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x1716",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x16EF",
+     "type": "0x2"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x1757",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x1700",
+     "type": "0x2"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x1902",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x18FA",
+     "type": "0x2"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x172C",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x1714",
+     "type": "0x2"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x1773",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x1720",
+     "type": "0x2"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x178B",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x172A",
+     "type": "0x2"
+    },
+    {
+     "addr": "0x191F",
+     "type": "0x2"
+    },
+    {
+     "addr": "0x1755",
+     "type": "0x2"
+    },
+    {
+     "addr": "0x1789",
+     "type": "0x2"
+    },
+    {
+     "addr": "0x1771",
+     "type": "0x2"
+    },
+    {
+     "addr": "0x188A",
+     "type": "0x2"
+    },
+    {
+     "addr": "0x18BD",
+     "type": "0x2"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x173C",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x1745",
+     "type": "0x2"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x1924",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x1793",
+     "type": "0x2"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x18C2",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x179B",
+     "type": "0x2"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x188F",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x17A3",
+     "type": "0x2"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x17EE",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x17AF",
+     "type": "0x2"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x15A8",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x17B2",
+     "type": "0x3"
+    },
+    {
+     "addr": "0x1890",
+     "type": "0x3"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x15E2",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x17B7",
+     "type": "0x3"
+    },
+    {
+     "addr": "0x1895",
+     "type": "0x3"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x1459",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x18D9",
+     "type": "0x3"
+    },
+    {
+     "addr": "0x17CC",
+     "type": "0x3"
+    },
+    {
+     "addr": "0x17FE",
+     "type": "0x3"
+    },
+    {
+     "addr": "0x193B",
+     "type": "0x3"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x162A",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x17D8",
+     "type": "0x3"
+    },
+    {
+     "addr": "0x180A",
+     "type": "0x3"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x1962",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x17E9",
+     "type": "0x2"
+    },
+    {
+     "addr": "0x1960",
+     "type": "0x2"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x1829",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x181F",
+     "type": "0x2"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x1836",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x182C",
+     "type": "0x2"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x1843",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x1839",
+     "type": "0x2"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x1850",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x1846",
+     "type": "0x2"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x185D",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x1853",
+     "type": "0x2"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x186A",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x1860",
+     "type": "0x2"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x1877",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x186D",
+     "type": "0x2"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x14DB",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x18EB",
+     "type": "0x3"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x18FC",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x18F2",
+     "type": "0x2"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x1A84",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x1985",
+     "type": "0x3"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x1006",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x19B3",
+     "type": "0x3"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x100C",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x19BA",
+     "type": "0x3"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x102A",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x19C5",
+     "type": "0x3"
+    },
+    {
+     "addr": "0x19CF",
+     "type": "0x3"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x1024",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x1A02",
+     "type": "0x3"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x198E",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x1A0C",
+     "type": "0x1"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x1A3A",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x1A37",
+     "type": "0x2"
+    }
+   ]
+  },
+  {
+   "module": "aces_v3.exe",
+   "address": "0x1000",
+   "manual": false,
+   "references": [
+    {
+     "addr": "0x1A7E",
+     "type": "0x3"
+    }
+   ]
+  }
+ ],
+ "breakpoints": [
+  {
+   "address": "0x16BF",
+   "enabled": true,
+   "oldbytes": "0x8B55",
+   "type": 0,
+   "titantype": "0x0",
+   "name": "",
+   "module": "aces_v3.exe",
+   "breakCondition": "",
+   "logText": "",
+   "logCondition": "",
+   "commandText": "",
+   "commandCondition": "",
+   "fastResume": false,
+   "silent": false
+  }
+ ],
+ "hashAlgorithm": "murmurhash",
+ "hash": "0xE3F8972A"
+}
