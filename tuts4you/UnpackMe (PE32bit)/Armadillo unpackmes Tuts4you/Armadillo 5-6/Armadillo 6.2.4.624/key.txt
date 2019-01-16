@@ -1,0 +1,16 @@
+09B8-DE48
+
+crack
+000JM0-26TU82-N5WR91-4NRETJ-A98ZBZ-P5D7YR-FPEM2K-AKG41P
+
+
+Documents and Settings\All Users\Application Data\TEMP\85FB0BBF.TMP
+Documents and Settings\All Users\Application Data\TEMP\85DAF2FE.TMP
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{8D8763AB-E93B-4812-964E-F04E0008FD50}
+
+
+ Process ID : 3596
+ Set BreakPoint On VirtualProtect
+ Virtual Protect Address : 7C801AD0
+ First Patch Address : 008D204
+ Second Patch Address : 008D264

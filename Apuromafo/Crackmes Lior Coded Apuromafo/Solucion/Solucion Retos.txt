@@ -1,0 +1,4 @@
+Reto1:123456
+Reto2: (cualquier nombre)  clave:HackSpace2017
+Reto3: ambos sean iguales ejemplo (apuromafo) y (apuromafo)
+Reto4: (cualquier nombre) clave (largo de ese cualquier nombre) ejemplo apuromafo clave:9 
