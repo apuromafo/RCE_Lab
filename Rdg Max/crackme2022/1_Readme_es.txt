@@ -2,7 +2,7 @@ Buenas Amigos nuevamente les traigo para practicar.con permiso de administradore
 
 RDG Enable Me 2022 vb6 :)
 
-password: crackme
+
 
 Dificultad 3 / 10
 Compilador: Microsoft Visual Basic v6.0
@@ -28,3 +28,5 @@ rdgmax@rdgsoft.net
 www.rdgsoft.net
 
 Un saludo a todos
+
+password: crackme
