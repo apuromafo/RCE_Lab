@@ -4,7 +4,6 @@ Siempre es bueno tener en práctica nuevos retos con nuevos métodos anti cracki
 
 RDG Crackme 2022 vb6 :)
 
-password: cls
 
 Dificultad 7 / 10
 Compilador: Microsoft Visual Basic v6.0
@@ -28,3 +27,6 @@ rdgmax@gmail.com
 rdgmax@rdgsoft.net
 
 www.rdgsoft.net
+
+
+password: cls
